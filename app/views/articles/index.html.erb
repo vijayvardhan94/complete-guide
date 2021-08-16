@@ -1,0 +1,11 @@
+<h1>The complete example app</h1>
+<h2>Build the rails guides articles - in a more complete way</h2>
+
+<h3>List of articles </h3>
+<ul>
+    <%= @articles.each do |article| %>
+        <li> 
+            <p> <%= article.title %> </p>
+        </li>
+    <% end %>
+</ul>
